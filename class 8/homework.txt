@@ -1,0 +1,25 @@
+Homework
+> Deadline: 2019-Jan-06
+
+1. Summarize the reasons of overfitting and underfitting. Put them in github repository. 
+2. install the numpy, scikit-learning, keras, tensorflow
+3. Writing down three sceneries that machine learning has been used now. 
+4. Come out with three new sceneries with which machine learning may be applied.
+
+
+1、欠拟合(underfitting)：特征维度过少，导致拟合函数无法满足训练集，误差较大，拟合结果无法反映真是数据分布
+过拟合(overfitting)：特征维度过多，导致拟合函数针对训练集完美匹配，但是对测试集误差较大，同样无法反映真实数据分布。
+
+欠拟合问题可以通过增加特征维度来解决
+过拟合可以通过2种方法解决：
+(1)、减少特征维度，可通过人工选择或模型算法保留特征
+(2)、正则化，减少高维系数
+
+
+3、（1）指纹识别、人脸识别
+     （2）手机智能语音助手
+     （3）alpha go
+
+4、（1）电力自动控制系统：根据不同地区、不同时间的用电高峰期和低谷期，智能调节电力分配
+     （2）舆情分析系统：根据社交媒体和新闻评论分析某个事件的舆论情况，判断公众心理，舆论走势，可应用于股票走势，大选选票和公关处理等
+     （3）性格与心理分析系统：现有的分析系统大都基于心理学的经验理论，没有形成一个长期数据积累，判断心理走势的大数据分析系统，而现在公众心理每隔3-5年就会有比较大的变化，测试方式也会有所不同。因此需要形成动态变化的性格与心理分析系统。
